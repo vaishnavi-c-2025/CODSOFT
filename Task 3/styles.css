@@ -1,0 +1,62 @@
+/* styles.css */
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background:url('back.webp');
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+.calculator {
+    border: 1px solid #ccc;
+    border-radius: 10%;
+    box-shadow: 0 0 8px rgba(0, 0, 0, 0.2), 0 0 10px palevioletred; 
+    border-color: palevioletred;
+    background-color: #fff;
+    width: 300px;
+}
+
+.display {
+    color: purple;
+    font-size: 4em;
+    padding: 10px;
+    text-align: right;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.buttons {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 5px;
+    padding: 10px;
+}
+
+.btn {
+    padding: 20px;
+    font-size: 1.5em;
+    border: none;
+    background-color: purple;
+    color: white;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+    border-radius: 10%;
+    box-shadow: 0 0 16px rgba(0, 0, 0, 0.2), 0 0 10px palevioletred; 
+    border-color: palevioletred;
+}
+
+.btn:hover {
+    background-color: lightpink;
+}
+
+#equals {
+    background-color: blueviolet;
+    color: white;
+}
+
+#equals:hover {
+    background-color: pink;
+}
